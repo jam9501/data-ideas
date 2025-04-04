@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Projects: Challenges & Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .foil-process {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left; 
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+}
+
+.foil-process h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.foil-process p {
+  margin-bottom: 15px;
+}
+
+.foil-process ul {
+  margin-left: 20px;
+}
+
+.foil-process li {
+  margin-bottom: 10px;
+}
+
+    body {
+      font-family: 'Lora', serif;
+      background-color: #f8f9fc;
+      color: #333;
+      line-height: 1.6;
+      padding: 30px;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #333;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #4e73df;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .link-section a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link-section a:hover {
+      text-decoration: underline;
+    }
+
+    .iframe-container {
+      margin: 30px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 500px;
+      border: 0;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 16px;
+      color: #777;
+    }
+
+    .highlight {
+      font-weight: 700;
+      color: #007bff;
+    }
+
+    .bold {
+      font-weight: 700;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Data Projects & FOIL Challenges</h1>
+  </header>
+
+  <div class="content">
+    <section>
+      <h2>FOIL Data Challenges and Solutions</h2>
+      <p>One of the major obstacles in data projects is a hesitation to FOIL (Freedom of Information Law) data. Many of the datasets specific to Nassau County are not available digitally or are too aggregated to be useful (i.e., non-Village/Hamlet specific). Newsday, for example, FOILs much of its data, such as the <a href="https://www.newsday.com/long-island/transportation/dangerous-roads-crashes-x0sjti6e" target="_blank">Dangerous Roads series</a>, where they requested data from the Department of Transportation.</p>
+      <p>And, again, for this analysis on Bruce Blakeman’s spending on outside council: “Newsday reviewed 80 contracts obtained through a Freedom of Information request, showing the county awarding tens of millions of dollars and often bypassing its own procurement rules that in most cases require multiple bids. Large contracts went to firms that have also done work for President Donald Trump or have donated to Republicans, including Blakeman.” </p>
+    </section>
+
+    <section>
+      <h2>Workflow Idea </h2>
+      <p>If organizations like Newsday, with a whole team of data reporters and engineers, still struggle to find digitally available data, it’s clear we must navigate this challenge as well.</p>
+      <p>To counter this, I propose creating a list of all the data stories we want to pursue, and if data is not accessible, FOIL it all at once. This way, we can acquire data in bulk and plan stories throughout the year.</p>
+      <p>This was the workflow of my coworkers and I at Oklahoma Watch. We had a spreadsheet charting what we filed, what date, follow-ups, and completions. </p>    </section>
+
+    <section>
+      <h2>Example Data Story Ideas</h2>
+      <p>Here are a few data story ideas that could engage readers:</p>
+      <ul>
+        <li><strong>Property Taxes:</strong> By FOILing village, town, or city clerks, we could create a map comparing property tax rates across different areas in Long Island. An expert could help interpret the intricacies of determining property taxes.</li>
+        <li><strong>Inherited Properties:</strong> In a rapidly changing housing market, inherited properties shape affordability and community dynamics. By requesting sale and tax records for inherited properties, we can explore how many properties are passed down through estates.</li>
+        <li><strong>More:</strong> <a href="https://docs.google.com/spreadsheets/d/1ak_AwYXDl3Blu_RcNYDtlTBRqzDEjb8I/edit?gid=1278697026#gid=1278697026" target="_blank">spreadsheet</a> </li>
+
+    </ul>
+    </section>
+
+    <section>
+      <h2>Examples of Ongoing and Past Data Projects</h2>
+      <P>But, sometimes, there still might not be data available because of how hyper-local we are, or because no one is documenting it. 
+    </P>
+<p>In this case, we should take advantage of building our own data with surveys. </p> 
+<p> For example, we could survey local business owners— specifically dealing in international food and retail, electronics and construction— and ask how much they spend on imports. </p>
+<a href="https://jam9501.github.io/tariffs/" target="_blank">Tariff Rates & Imports Data</a> (Mockup Example for Tariffs Analysis)
+      </div>
+      <div class="iframe-container">
+        <iframe src="https://jam9501.github.io/tariffs/" title="Tariffs"></iframe> </div>
+<p> Note: Tariff rates may have changed (there’s some confusion on if the 34% rate on China is additional or stand-alone), and the story would be more data heavy and detailed with more information. 
+</p>
+      <div class="link-section">
+        
+      <div class="iframe-container">
+        <iframe src="https://jam9501.github.io/southernstateparkwayquiz/" title="Southern State Parkway Quiz"></iframe>
+      </div>
+    </section>
+    <section class="foil-process">
+        <h2>FOIL Process Example: Southern State Parkway Series</h2>
+        <p>
+          I filed a FOIL request with the state trooper for the “accidents, fatalities and injuries, including the location of where the police responded to” on Feb. 2.
+        </p>
+        <p>
+          Since our project was initially due on March 21, I gave her 30 days (the requirement of when they need to respond) until a follow up.
+        </p>
+        <p>
+          Public Information Officer Brittany Burton said she was working on it in mid-February.
+        </p>
+        <p>
+          On March 2, I followed-up. No response.
+        </p>
+        <p>
+          I called the department every day for a week. Voicemail.
+        </p>
+        <p>
+          I called the Albany office, and they got me back in contact with Burton. She said she was still working on it, but she would get me the data by March 13. She did, but not all the data I requested. She said the specific locations over 6 years would take more time.
+        </p>
+        <p>
+          Looking for a quicker solution, Chelsea and I determined since “blood alley” was deemed the deadliest 10-mile stretch, running between exits 17 and 32, we could ask for data on those specific exits. Burton said this would be faster.
+        </p>
+        <p>
+          Still looking for a faster route, I found a law firm that published an article using data the firm acquired on blood alley. I asked one of the attorneys for an interview. He agreed, and I’m hoping he can provide me data, clients who have accident/injury stories, and information on:
+        </p>
+        <ul>
+          <li>How frequently does the office handle cases related to accidents on the Southern State Parkway, particularly in the "Blood Alley" stretch?</li>
+          <li>Are there specific road conditions or driver behaviors that seem to contribute to the frequency of these crashes?</li>
+          <li>Are there challenges specific to litigating accidents on highways like the Southern State Parkway, such as issues with determining fault, navigating insurance claims, or dealing with governmental entities?</li>
+          <li>Are there particular times of day, weather conditions, or seasons when accidents are more common on the Southern State Parkway?</li>
+          <li>Are commercial vehicles or certain makes and models involved in more accidents?</li>
+          <li>Are there any specific incidents or cases where road conditions (such as poor lighting, signage, or design issues) were identified as a contributing factor? (Which lead into a separate part of the series)</li>
+        </ul>
+        <p>
+          Mohammed is working with me on this, and talked to a state trooper on responding to accidents. This trooper said he would give us data on reasons for crashes (impaired, distracted driving, etc.).
+        </p>
+        <p>
+          This is why it’s imperative to FOIL a lot at once if we want to do data projects regularly. It took a little over a month to receive data. Granted, the county takes longer, and if I didn’t have time, I would have called her before the 30-day mark.
+        </p>
+        <p>
+          The silver lining is after I called her every day for a week, I got the data pretty fast after that.
+        </p>
+      </section>
+      
+      
+   
+      
+    <section>
+      <h2>Completed Projects</h2>
+      <p>Some of the projects I’ve completed or currently working on:</p>
+      <div class="link-section">
+        <a href="https://www.liherald.com/train-embed/index.html?preview_key=260e868c64e4c6d8c6fdb2c71b719dbb&time=1741980395" target="_blank">LIRR Train Delays</a>
+      </div>
+      <div class="link-section">
+        <a href="https://www.liherald.com/long-island-schools-federal-funding.html?preview_key=260e868c64e4c6d8c6fdb2c71b719dbb&time=1741980645" target="_blank">School Districts' Federal Funds</a>
+      </div>
+      <div class="link-section">
+        <a href="https://www.liherald.com/stories/hempstead-officials-will-sue-faa-over-plane-volume,213243" target="_blank">FAA Noise Complaints</a>
+      </div>
+      <div class="link-section">
+        <a href="https://jam9501.github.io/FloodMapDatabase/" target="_blank">Flooding Database</a>
+        <div class="link-section">
+        <a href=" https://jam9501.github.io/FloodMaps/" target="_blank">Flooding Data</a>
+        <div class="link-section">
+        <a href="https://jam9501.github.io/HistoricalFloods/" target="_blank">Historical Floods</a>
+       
+
+
+
+      </div>
+    </section>
+
+</body>
+</html>
